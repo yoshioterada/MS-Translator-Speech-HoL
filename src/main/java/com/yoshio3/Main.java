@@ -83,7 +83,7 @@ public class Main {
             Session translatorSession = container.connectToServer(TranslatorWebSockerClientEndpoint.class, serverEndpointUri);
 
             sendSoundHeader(translatorSession);
-            sendSoundData("/Users/tyoshio2002/Downloads/sound.wav", translatorSession);
+            sendSoundData("sound.wav", translatorSession);
 
         } catch (UnsupportedAudioFileException | IOException | DeploymentException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
