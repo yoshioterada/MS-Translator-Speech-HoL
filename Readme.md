@@ -1,4 +1,4 @@
-# Microsoft Translator Hands on Lavb
+# Microsoft Translator Hands on Lab
 
 Microsoft Translator はテキスト(英語)からテキスト(日本語)の翻訳のほか、音声データ(wavファイル)からテキストへ翻訳などができます。本ハンズオンでは、テキストからテキストの翻訳、音声からテキストへの翻訳の２種類の翻訳の実装方法について紹介します。
 
@@ -40,7 +40,7 @@ public class TranslatorTextServices {
     private final static String SUBSCRIPTION_KEY;
 
     static {
-        SUBSCRIPTION_KEY = PropertyReaderService.getPropertyValue("TRANSLATOR_SUBSCRIPTION_KEY");
+        SUBSCRIPTION_KEY = "******************************";
      }    
     
     /**
