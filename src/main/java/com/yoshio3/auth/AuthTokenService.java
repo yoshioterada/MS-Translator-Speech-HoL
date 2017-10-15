@@ -33,7 +33,7 @@ public class AuthTokenService {
     private final static String SUBSCRIPTION_KEY;
 
     static {
-        SUBSCRIPTION_KEY = "8c7405ed70b6475094356391c485d25e";
+        SUBSCRIPTION_KEY = "*********************************";
     }
 
     /**
